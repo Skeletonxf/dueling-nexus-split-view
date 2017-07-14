@@ -1,0 +1,33 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("duelingnexus.com") {
+ 
+  #game-chat-area {
+    width: 25%;
+    max-height: 25vh;
+    overflow-y: scroll;
+    resize: horizontal;
+  }
+  
+  #card-name {
+    position: absolute;
+    top: 0px;
+    left: 12.5%;
+    transform: translateX(-50%);
+  }
+  
+  #card-description-box {
+    overflow-y: visible;
+  }
+  
+  #card-column {
+    max-height: 70vh !important;
+    overflow-y: scroll;
+  }
+  
+  #card-picture-container {
+    margin: 5px 0px;
+    max-height: 190px;
+    overflow-y: scroll;
+  }
+}
