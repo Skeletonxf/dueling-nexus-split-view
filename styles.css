@@ -11,7 +11,7 @@
 }
   #card-picture {
 	width: 55% /*45%*/;
-   }
+}
   #card-description-box {
     height: 25vh !important;
     overflow-x: hidden;
@@ -38,7 +38,7 @@
     position: fixed;
     bottom: 7px;
     left: 7px;
-    1em;
-  }
+    font-size: 1em;
+}
   
 }
