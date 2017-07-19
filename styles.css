@@ -19,6 +19,7 @@
     text-align: justify;
     border: 1px dashed antiquewhite;
     font-size: 1.5em;
+    cursor: s-resize;
 }
 #game-chat-area {/*This is the box that contains the chat to a confined space. It's the heart of this Stylish.*/
     height: 12vh !important;
