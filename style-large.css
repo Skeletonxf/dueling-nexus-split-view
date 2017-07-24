@@ -1,8 +1,8 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("duelingnexus.com") {
+@-moz-document url-prefix("https://duelingnexus.com/game"), url-prefix("https://duelingnexus.com/editor") {
  body {
-    font-size: 16px /*Note: change this number to "10px" if your resolution is less than 1280x720. (Default value is 16px)*/;
+    font-size: 16px /*Note: You can change this number to "14px" or less if your resolution is 1280x720 or less. This will make the text smaller. (Default value is 16px)*/;
 }
   #card-name {
     text-align: center;
@@ -10,18 +10,18 @@
     font-size: 2em;
 }
   #card-picture {
-	width: 55% /*45%*/;
-   }
+    width: 55% /*45%*/;
+}
   #card-description-box {
     height: 25vh !important;
     overflow-x: hidden;
     overflow-y: scroll;
-     text-align: justify;
+    text-align: justify;
     border: 1px dashed antiquewhite;
     font-size: 1.5em;
+    cursor: s-resize;
 }
- 
-   #game-chat-area {
+#game-chat-area {/*This is the box that contains the chat to a confined space. It's the heart of this Stylish.*/
     height: 12vh !important;
     width: 25%;
     box-sizing: border-box;
@@ -30,15 +30,15 @@
     border: 1px dashed antiquewhite;
     font-size: 1em;
 }
-.engine-text-box {
-    height: 32px /*16px*/;
+.engine-text-box {/*This is the smaller box where you type into.*/
+    height: 4vh;
     width: 23vw;
     box-sizing: border-box;
     border: 3px double #f0f0f0;
     position: fixed;
     bottom: 7px;
     left: 7px;
-    1em;
-  }
-  
+    font-size: 1em;
+}
+/*Values in notes are the recommended changes for lower resolutions. However, they are only recommendations, so feel free to change this value to whatever suits your screen best.*/
 }
