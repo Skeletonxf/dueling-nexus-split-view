@@ -1,6 +1,6 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
-@-moz-document url-prefix("duelingnexus.com/game"), url-prefix("duelingnexus.com/editor") {
+@-moz-document url-prefix("https://duelingnexus.com/game"), url-prefix("https://duelingnexus.com/editor") {
  body {
     font-size: 16px /*Note: You can change this number to "14px" or less if your resolution is 1280x720 or less. This will make the text smaller. (Default value is 16px)*/;
 }
