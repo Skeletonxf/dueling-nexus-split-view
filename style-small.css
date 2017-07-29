@@ -56,4 +56,27 @@
     */
     overflow-y: scroll;
   }
+  
+  #game-deck-selection {
+    /* scroll the deck selection window */
+    overflow-y: scroll;
+    /* let it take up nearly all of the vertical space below it */
+    max-height: 60vh;
+  }
+  
+  #game-selection-window {
+    /* scroll whatever is in the selection window */
+    overflow-y: scroll;
+    /* 
+      put it after 30% of the horiztontal space so it is 
+      5% clear of the monster info
+    */
+    margin-left: 30vw;
+    /*
+      cap its width at 65% so there is 5% left on
+      the right side so it looks centred
+    */
+    max-width: 65vw;
+  }
+  
 }
