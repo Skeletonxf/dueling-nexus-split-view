@@ -1,9 +1,24 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("duelingnexus.com") {
+#game-room-container {
+    width: 50vw;
+    min-width: 500px;
+}
+#game-room-players {
+	width: 28vw;
+    min-width: 280px;
+	padding: 2vh 1vw 2vh 2vw;
+}
+#game-room-information {
+	width: 16vw;
+    min-width: 160px;
+	padding: 2vh 2vw 2vh 1vw;
+}
 #game-deck-selection {
-    height: 10vh;
-    width: 45vw;
+    height: 16vh;
+    width: 28vw;
+    min-width: 280px;
     border: solid #f0f0f0;
     border-width: 15px 1px 1px 3px;
     border-radius: 10px;
