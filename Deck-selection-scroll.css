@@ -4,7 +4,7 @@
 #game-deck-selection {
     display: none;
     position: absolute;
-    border: solid antiquewhite;
+    border: solid white;
     border-width: 15px 1px 1px 3px;
     border-radius: 10px;
     margin-top: 5px;
