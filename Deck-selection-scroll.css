@@ -2,16 +2,15 @@
 
 @-moz-document domain("duelingnexus.com") {
 #game-deck-selection {
-    display: none;
-    position: absolute;
-    border: solid white;
+    height: 10vh;
+    width: 45vw;
+    border: solid #f0f0f0;
     border-width: 15px 1px 1px 3px;
     border-radius: 10px;
     margin-top: 5px;
     padding: 5px;
+    position: absolute;
     z-index: 2;
-    height: 10vh;
-    width: 45vw;
     overflow-y: scroll;
     cursor: s-resize;
 }
