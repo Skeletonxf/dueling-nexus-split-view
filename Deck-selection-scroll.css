@@ -1,21 +1,21 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("duelingnexus.com") {
-#game-room-container {
+#game-room-container {/*This is the big black box you see when you enter a duel. It's here to prevent visual errors.*/
     width: 50vw;
     min-width: 500px;
 }
-#game-room-players {
+#game-room-players {/*This is the left side of the big black box. It's here to make the selection pop-up about the same size as the player column.*/
 	width: 28vw;
     min-width: 280px;
 	padding: 2vh 1vw 2vh 2vw;
 }
-#game-room-information {
+#game-room-information {/*This is the right side of the big black box. It's here to prevent visual errors.*/
 	width: 16vw;
     min-width: 160px;
 	padding: 2vh 2vw 2vh 1vw;
 }
-#game-deck-selection {
+#game-deck-selection {/*This is the heart of this fix. It contains a scrollbar that prevents your decks from flooding off the bottom of the screen.*/
     height: 16vh;
     width: 28vw;
     min-width: 280px;
@@ -29,4 +29,5 @@
     overflow-y: scroll;
     cursor: s-resize;
 }
+/*This is an accompanyment fix to the Chat Spam Filter, and adds a scrollbar to the pre-duel screen's deck selection. This fix is designed to work on all resolutions, as it does not affect font size.
 }
