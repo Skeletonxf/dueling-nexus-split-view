@@ -15,7 +15,7 @@
     min-width: 160px;
 	padding: 2vh 2vw 2vh 1vw;
 }
-#game-deck-selection {/*This is the heart of this fix. It contains a scrollbar that prevents your decks from flooding off the bottom of the screen.*/
+#game-deck-selection {/*This is the heart of this fix. It contains a scrollbar that prevents your decks from flooding off the bottom of the screen. The border is copiedfrom #game-selection-window, and coloured to match the scrollbar.*/
     height: 16vh;
     width: 28vw;
     min-width: 280px;
