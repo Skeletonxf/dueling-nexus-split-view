@@ -2,12 +2,19 @@
 
 @-moz-document domain("duelingnexus.com") {
 #game-selection-window {
+    background-color: rgba(0, 0, 0, 0.5);
     border-color: #f0f0f0f0;
     overflow-y: scroll;
+    margin-top: 3vh;
     margin-left: 30vw;
-/*    min-width: needs resolution testing;*/
-    max-width: 60vw;
+    height: 38vh;
+    width: 60vw;
+    z-index: 6;
     cursor: s-resize;
+}
+.game-selection-card {
+    margin: 1vh 1vw 1vh 1vw;
+    z-index: 7;
 }
 
 }
