@@ -3,7 +3,7 @@
 @-moz-document domain("duelingnexus.com") {
 #game-selection-window {
     background-color: rgba(0, 0, 0, 0.5);
-    border-color: #f0f0f0f0;
+    border-color: #f0f0f0;
     overflow-y: scroll;
     margin-top: 3vh;
     margin-left: 30vw;
