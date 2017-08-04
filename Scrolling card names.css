@@ -29,7 +29,7 @@ html {
     -o-transition-duration: 2s ease-in-out;
     transition-duration: 2s ease-in-out;
     overflow: visible;
-    margin-left: 0px;
+    margin-left: 0%;
     position: absolute;
 }
 
