@@ -5,17 +5,18 @@ It started out as a tweak for the chat overflowing onto the left side of the scr
 
 - https://userstyles.org/styles/144946/duelingnexus-chat-monster-info-split-view
 
-This style tries to save as much vertical screen space as possible, makes the chat, card image and card container box fixed heights and scrollable, with the card info box then able to take up the majority of the vertical space.
+This minimalist style tries to save as much vertical screen space as possible, makes the chat, card image and card container box fixed heights and scrollable, with the card info box then able to take up the majority of the vertical space.
 
 - TODO
 
 Stripped down style of the first that just makes the chat and card box scroll
 
-- TODO
 
 Restyling styles that alter the visual appearence of duelingnexus
 
+- https://userstyles.org/styles/145607/chat-spam-filter-for-dueling-nexus
 
+This more encompassing style is aimed at larger screens and *restyles* duelingnexus in most areas to improve the visuals, it also fixes the chat and code between the two projects is sometimes shared.
 
 
 
