@@ -1,9 +1,12 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 
 @-moz-document domain("duelingnexus.com") {
-#game-selection-window {
+.game-card-negated {/*moves the negated symbol behind the selection window*/
+    z-index: 5;
+}
+#game-selection-window {/*adds a scrollbar to various in-duel pop-ups, such as the graveyard and banished zone.*/
     background-color: rgba(0, 0, 0, 0.5);
-    border-color: #f0f0f0;
+    border-color: #f0f0f0f0;
     overflow-y: scroll;
     margin-top: 3vh;
     margin-left: 30vw;
@@ -12,7 +15,7 @@
     z-index: 6;
     cursor: s-resize;
 }
-.game-selection-card {
+.game-selection-card {/*adds space between the card images so you can see the field below*/
     margin: 1vh 1vw 1vh 1vw;
     z-index: 7;
 }
