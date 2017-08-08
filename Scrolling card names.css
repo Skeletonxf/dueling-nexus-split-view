@@ -1,5 +1,8 @@
 @-moz-document url-prefix("https://duelingnexus.com/editor/") {
 html {
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document url-prefix("https://duelingnexus.com/editor") {
 .editor-search-result {/*A nice even table without that bulging middle.*/
     border: 2px solid;
     border-collapse: collapse;
@@ -13,21 +16,21 @@ html {
     position: relative;
 }
 .editor-search-description {/*This allows the card name to move over the image.*/
-    -webkit-transition-duration: 2s ease-in-out;
-    -moz-transition-duration: 2s ease-in-out;
-    -ms-transition-duration: 2s ease-in-out;
-    -o-transition-duration: 2s ease-in-out;
-    transition-duration: 2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -ms-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
     font-size: 0.625em /*1em*/;
     margin-left: 33%;
     position: absolute;
 }
 .editor-search-description:hover {/*This moves the card name above the image, so you can read the longer names.*/
-    -webkit-transition-duration: 2s ease-in-out;
-    -moz-transition-duration: 2s ease-in-out;
-    -ms-transition-duration: 2s ease-in-out;
-    -o-transition-duration: 2s ease-in-out;
-    transition-duration: 2s ease-in-out;
+    -webkit-transition: 2s ease-in-out;
+    -moz-transition: 2s ease-in-out;
+    -ms-transition: 2s ease-in-out;
+    -o-transition: 2s ease-in-out;
+    transition: 2s ease-in-out;
     overflow: visible;
     margin-left: 0%;
     position: absolute;
