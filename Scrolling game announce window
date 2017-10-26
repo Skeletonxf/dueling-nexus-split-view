@@ -1,0 +1,13 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("duelingnexus.com") {
+#game-announce-window {
+    border: solid antiquewhite;
+    border-width: 15px 1px 1px 3px;
+    border-radius: 10px;
+    cursor: s-resize;
+    overflow-y: scroll;
+    height: 10vw;
+    width: 10vw;
+}
+}
