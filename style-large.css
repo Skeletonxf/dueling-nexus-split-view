@@ -1,44 +1,58 @@
-@namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document url-prefix("https://duelingnexus.com/game"), url-prefix("https://duelingnexus.com/editor") {
- body {
-    font-size: 16px /*Note: You can change this number to "14px" or less if your resolution is 1280x720 or less. This will make the text smaller. (Default value is 16px)*/;
+@namespace url(http://www.w3.org/1999/xhtml);
+body {
+    font-size: 2vh;
 }
-  #card-name {
+#card-column {
+    width: 24vw;
+}
+#card-name {
+    font-size: 2em;
     text-align: center;
     border: 1px dashed antiquewhite;
-    font-size: 2em;
 }
-  #card-picture {
+#card-picture {/*"%" represents what percentage of the #card-column this image file takes up.*/
     width: 55% /*45%*/;
 }
-  #card-description-box {
-    height: 25vh !important;
-    overflow-x: hidden;
-    overflow-y: scroll;
+#card-description-box {/*The cursor property is there for our Mac users, who's scrollbars are hidden unless in use. If you want a regular cursor, remove the "    cursor: s-resize;" line.*/
+    font-size: 1.5em;
     text-align: justify;
     border: 1px dashed antiquewhite;
-    font-size: 1.5em;
     cursor: s-resize;
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 25vh !important;
 }
+/*Values in notes are the recommended changes for lower resolutions. However, they are only recommendations, so feel free to change this value to whatever suits your screen best.*/
+}
+
+@-moz-document url-prefix("https://duelingnexus.com/game") {
+@namespace url(http://www.w3.org/1999/xhtml);
 #game-chat-area {/*This is the box that contains the chat to a confined space. It's the heart of this Stylish.*/
-    height: 12vh !important;
-    width: 25%;
+    font-size: 0.75em;
+    border: 1px dashed antiquewhite;
     box-sizing: border-box;
     overflow-x: hidden;
     overflow-y: scroll;
-    border: 1px dashed antiquewhite;
-    font-size: 1em;
+    height: 9vw !important;
+    width: 24vw;
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    bottom: 40px;
+    left: 16px;
 }
 .engine-text-box {/*This is the smaller box where you type into.*/
-    height: 4vh;
-    width: 23vw;
-    box-sizing: border-box;
+    font-size: 0.75em;
     border: 3px double #f0f0f0;
+    box-sizing: border-box;
+    height: 4vh;
+    width: 21vw;
+    margin: 0;
+    padding: 0;
     position: fixed;
-    bottom: 7px;
-    left: 7px;
-    font-size: 1em;
+    bottom: 45px;
+    left: 20px;
 }
-/*Values in notes are the recommended changes for lower resolutions. However, they are only recommendations, so feel free to change this value to whatever suits your screen best.*/
 }
