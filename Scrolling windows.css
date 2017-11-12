@@ -1,0 +1,52 @@
+@namespace url(http://www.w3.org/1999/xhtml);
+
+@-moz-document domain("duelingnexus.com") {
+@-moz-document domain("duelingnexus.com") {
+@namespace url(http://www.w3.org/1999/xhtml);
+.game-card-negated {/*This moves the negated symbol behind the selection window.*/
+    z-index: 5;
+}
+#game-selection-window {/*This adds a scrollbar to various in-duel pop-ups, such as the graveyard and banished zone.*/
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #f0f0f0;
+    overflow-y: scroll;
+    margin-top: 3vh;
+    margin-left: 30vw;
+    height: 38vh;
+    width: 60vw;
+    z-index: 6;
+    cursor: s-resize; /*For our Mac users.*/
+}
+.game-selection-card {/*This adds space between the card images on the window so you can see the field below.*/
+    margin: 1vh 1vw 1vh 1vw;
+    z-index: 7;
+}
+#game-announce-window {/*DNx uses a lot of pop-up windows. This is one of them. The Game Announce Wincow is used for displaying lists ingame, such as types or attributes. Chances are you may not even know it exists.*/
+    background-color: rgba(0, 0, 0, 0.5);
+    border: solid #f0f0f0;
+    border-width: 15px 1px 1px 3px;
+    border-radius: 10px;
+    cursor: s-resize;
+    overflow-y: scroll;
+    height: 10vw;
+    width: 10vw;
+}
+#game-end-window {/*This moves the game end window behind the options window on resolutions that cause them to overlap. Also, I added transparency so it matches the other windows.*/
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 8;
+    position: fixed;
+}
+#options-area {/*This should move the button that opens the option window above the taskbar of your computer.*/
+    position: fixed;
+    right: 20vw;
+    bottom: 40px;
+}
+#options-window {/*This moves the option window itself, and makes the background transparent.*/
+    background-color: rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+    z-index: 10;
+    position: fixed;
+    right: 20vw;
+    bottom: 40px;
+}
+}
