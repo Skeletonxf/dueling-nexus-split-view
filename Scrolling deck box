@@ -4,21 +4,21 @@
     min-width: 500px;
 }
 #game-room-players {/*This is the left side of the big black box. It's here to make the selection pop-up about the same size as the player column.*/
-	width: 28vw;
+    width: 28vw;
     min-width: 280px;
-	padding: 2vh 1vw 2vh 2vw;
+    padding: 2vh 1vw 2vh 2vw;
 }
 #game-room-information {/*This is the right side of the big black box. It's here to prevent visual errors.*/
-	width: 16vw;
+    width: 16vw;
     min-width: 160px;
-	padding: 2vh 2vw 2vh 1vw;
+    padding: 2vh 2vw 2vh 1vw;
 }
 #game-deck-selection {/*This is the heart of this fix. It contains a scrollbar that prevents your decks from flooding off the bottom of the screen. The border is copied from #game-selection-window, and coloured to match the scrollbar.*/
     border: solid #f0f0f0;
     border-width: 15px 1px 1px 3px;
     border-radius: 10px;
-    cursor: s-resize; /*As always, thinking about my mac users out there. If you don't want to see this cursor, delete this line. (cursor: s-resize;)*/
     overflow-y: scroll;
+    cursor: s-resize; /*As always, thinking about my mac users out there. If you don't want to see this cursor, delete this line. (cursor: s-resize;)*/
     height: 16vh;
     width: 28vw;
     min-width: 280px;
