@@ -11,11 +11,10 @@
     width: 33.33vw;
 }
 #editor-deck-main-title, #editor-search-title  {
-	margin: 0 0 1vw 0;
+    margin: 0 0 1vw 0;
 }
-
 #editor-deck-extra-title, #editor-deck-side-title {
-	margin: 0.5vw 0;
+    margin: 0.5vw 0;
 }
 #editor-main-deck {
     height: 18vw !important;
@@ -45,9 +44,8 @@
     -ms-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
+    font: bold 0.7vw/1 inherit;
     background: rgba(0,0,0,0);
-    font-weight: bold;
-    font-size: 0.75vw;
     margin-left: 33%;
     position: absolute;
 }
@@ -57,8 +55,8 @@
     -ms-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
-    font-size: 0.7vw;
-    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0));
+    font-size: 0.65vw;
+    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.1));
     overflow: visible;
     margin-left: 0%;
     position: absolute;
