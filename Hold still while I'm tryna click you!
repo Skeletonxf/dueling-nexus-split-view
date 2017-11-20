@@ -1,0 +1,6 @@
+@-moz-document url-prefix("https://duelingnexus.com/") {
+#tab-duel table, #tab-duel tr {
+    transform: rotate(180deg)
+}
+
+}
