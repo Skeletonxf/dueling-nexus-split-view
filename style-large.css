@@ -1,7 +1,6 @@
 @-moz-document url-prefix("https://duelingnexus.com/game"), url-prefix("https://duelingnexus.com/editor") {
-@namespace url(http://www.w3.org/1999/xhtml);
 body {
-    font-size: 2vh;
+    font-size: 1vw;
 }
 #card-column {
     width: 24vw;
@@ -21,16 +20,19 @@ body {
     cursor: s-resize;
     overflow-x: hidden;
     overflow-y: scroll;
-    height: 25vh !important;
+    height: 12.5vw !important;
+}
+.game-avatar-area {/*This ensures that the left-most username doesn't enter the #card-column.*/
+    text-align: center;
+    word-break: break-all;
+    width: 81%;
 }
 /*Values in notes are the recommended changes for lower resolutions. However, they are only recommendations, so feel free to change this value to whatever suits your screen best.*/
 }
 
 @-moz-document url-prefix("https://duelingnexus.com/game") {
-@namespace url(http://www.w3.org/1999/xhtml);
-#game-chat-area {
-    /*This is the box that contains the chat to a confined space. It's the heart of this Stylish.*/
-    font-size: 0.75em;
+#game-chat-area {/*This is the box that contains the chat to a confined space. It's the heart of this Stylish.*/
+    font-size: 0.9em;
     border: 1px dashed antiquewhite;
     box-sizing: border-box;
     overflow-x: hidden;
@@ -44,9 +46,8 @@ body {
     bottom: 40px;
     left: 16px;
 }
-.engine-text-box {
-    /*This is the smaller box where you type into.*/
-    font-size: 0.75em;
+.engine-text-box {/*This is the smaller box where you type into.*/
+    font-size: 0.9em;
     border: 3px double #f0f0f0;
     box-sizing: border-box;
     height: 4vh;
@@ -57,4 +58,5 @@ body {
     bottom: 45px;
     left: 20px;
 }
+
 }
