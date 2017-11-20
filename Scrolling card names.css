@@ -1,11 +1,33 @@
-@-moz-document url-prefix("https://duelingnexus.com/editor/") {
-html {
-@namespace url(http://www.w3.org/1999/xhtml);
-
 @-moz-document url-prefix("https://duelingnexus.com/editor") {
-.editor-search-result {/*A nice even table without that bulging middle.*/
+#card-column {/*This sizes the left-most column for aesthetic reasons.*/
+    box-sizing: border-box;
+    height: 100vh;
+    width: 24vw;
+    float: left;
+}
+#editor-decks-column {/*These apply to the middle column for aesthetic reasons.*/
+    height: 37.67vw;
+    width: 33.33vw;
+}
+#editor-deck-main-title, #editor-search-title  {
+    margin: 0 0 1vw 0;
+}
+#editor-deck-extra-title, #editor-deck-side-title {
+    margin: 0.5vw 0;
+}
+#editor-main-deck {
+    height: 18vw !important;
+}
+#editor-extra-deck, #editor-side-deck {
+    height: 4.5vw !important;
+}
+#editor-search-column {/*From here on is the code that actually affects the right-most column.*/
+    border: 1px dashed antiquewhite;
+    height: 37.67vw;
+    width: 37.67vw;
+} 
+.editor-search-result {/*This provides a nice even table without that bulging middle.*/
     border: 2px solid;
-    border-collapse: collapse;
     cursor: pointer;
     width: 50.19%;
     margin: 0 -2px -2px 0;
@@ -21,16 +43,19 @@ html {
     -ms-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
-    font-size: 0.625em /*1em*/;
+    font: bold 0.70vw/1 inherit;
+    background: rgba(0,0,0,0);
     margin-left: 33%;
     position: absolute;
 }
-.editor-search-description:hover {/*This moves the card name above the image, so you can read the longer names.*/
+.editor-search-description:hover {/*This moves the card name above the image, resizes the font, and applies a transparent background colour. Now you can read the longer names.*/
     -webkit-transition: 2s ease-in-out;
     -moz-transition: 2s ease-in-out;
     -ms-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
+    font-size: 0.65vw;
+    background: linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
     overflow: visible;
     margin-left: 0%;
     position: absolute;
