@@ -1,0 +1,67 @@
+@-moz-document url-prefix("https://duelingnexus.com/game") {
+.engine-button{/*This adjusts the font size of some things so they fit on lower resolutions.*/
+    font-size: 1vw;
+    height: auto;
+    min-height: 0;
+    width: 5vw;
+    min-width: 0;
+    margin: 0.1vw !important;
+    padding: 0.2vw !important;
+}
+#game-alert-window, #game-end-window, #options-window, #game-results-container, #game-message-window, #game-waiting-menu, #game-selection-window, #game-yesno-window, #game-position-window, #game-option-window, #game-announce-window, #game-announce-card-window {/*This assures that all the windows match.*/
+    background-color: rgba(0, 0, 0, 0.5);
+    border-color: #f0f0f0;
+    border-width: 15px 1px 1px 3px;
+    border-radius: 10px;
+}
+#game-end-button{/*This prevents the button at the end of the game from taking 2 lines.*/
+    width: auto;
+}
+
+.game-card-negated {/*This moves the negated symbol behind the selection window.*/
+    z-index: 5;
+}
+#game-announce-window {/*DNx uses a lot of pop-up windows. This is one of them. The Game Announce Wincow is used for displaying lists ingame, such as types or attributes. Chances are you may not even know it exists.*/
+    overflow-y: scroll;
+    cursor: s-resize;
+    height: 10vw;
+    width: 10vw;
+    z-index: 6;
+}
+#game-selection-window {/*This adds a scrollbar to various in-duel pop-ups, such as the graveyard and banished zone.*/
+    overflow-y: scroll;
+    cursor: s-resize; /*For our Mac users.*/
+    height: 20vw;
+    width: 40vw;
+    margin-top: 3vw;
+    margin-left: 33vw;
+    z-index: 6;
+}
+.game-selection-card {/*This adds space between the card images on the window so you can see the field below.*/
+    margin: 1vh 1vw 1vh 1vw;
+    z-index: 7;
+}
+#game-end-window {/*This moves the game end window behind the options window on resolutions that cause them to overlap.*/
+    z-index: 8;
+    position: fixed;
+}
+.game-field-zone-activate {/*just more z-index stuff.*/
+    z-index: 9;
+    position: absolute;
+}
+#options-area {/*This should move the button that opens the option window above the taskbar of your computer.*/
+    position: fixed;
+    right: 20vw;
+    bottom: 40px;
+}
+#options-window {/*This moves the option window itself.*/
+    height: 10vw;
+    width: auto;
+    overflow-y: scroll;
+    cursor: s-resize; /*For our Mac users.*/
+    z-index: 10;
+    position: fixed;
+    right: 20vw;
+    bottom: 40px;
+}
+}
