@@ -8,7 +8,7 @@
     margin: 0.1vw !important;
     padding: 0.2vw !important;
 }
-.template-button, #game-deck-dropdown, #game-end-button {/*These are exceptions to the above.*/
+.template-button, #game-rps-second, #game-deck-dropdown, #game-end-button {/*These are exceptions to the above.*/
     width: auto;
 }
 #game-room-container {/*This is the big black box you see when you click a duel and enter a game room to prepare for the upcoming battle. It's here to prevent visual errors.*/
