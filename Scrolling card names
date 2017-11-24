@@ -1,5 +1,4 @@
 @-moz-document url-prefix("https://duelingnexus.com/editor") {
-@namespace url(http://www.w3.org/1999/xhtml);
 #card-column {/*This sizes the left-most column for aesthetic reasons.*/
     box-sizing: border-box;
     height: 100vh;
@@ -44,7 +43,7 @@
     -ms-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
-    font: bold 0.7vw/1 inherit;
+    font: bold 0.7vw/1 initial !important;
     background: rgba(0,0,0,0);
     margin-left: 33%;
     position: absolute;
@@ -56,9 +55,10 @@
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
     font-size: 0.65vw;
-    background: linear-gradient(90deg, rgba(0,0,0,0.6), rgba(0,0,0,0.1));
+    background: linear-gradient(90deg, rgba(0,0,0,0.4), rgba(0,0,0,0.8));
     overflow: visible;
     margin-left: 0%;
     position: absolute;
 }
+/*This is another accompaniment to the chatbox. It affects the right side of the editor.*/
 }
