@@ -2,7 +2,7 @@
 #card-column {/*This sizes the left-most column for aesthetic reasons.*/
     box-sizing: border-box;
     height: 100vh;
-    width: 24vw;
+    width: 25vw;
     float: left;
 }
 #editor-decks-column {/*These apply to the middle column for aesthetic reasons.*/
@@ -43,7 +43,7 @@
     -ms-transition: 2s ease-in-out;
     -o-transition: 2s ease-in-out;
     transition: 2s ease-in-out;
-    font: bold 0.70vw/1 inherit;
+    font: bold 0.7vw/1 initial !important;
     background: rgba(0,0,0,0);
     margin-left: 33%;
     position: absolute;
@@ -60,5 +60,5 @@
     margin-left: 0%;
     position: absolute;
 }
-
+/*This is another accompaniment to the chatbox. It affects the right side of the editor.*/
 }
