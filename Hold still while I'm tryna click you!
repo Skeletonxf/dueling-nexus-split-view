@@ -1,6 +1,62 @@
 @-moz-document url-prefix("https://duelingnexus.com/") {
 #tab-duel table, #tab-duel tr {
-    transform: rotate(180deg)
+    transform: rotate(180deg);
+}
+.profile-if-not-contributor {
+    font-size: 1vw;
+    overflow-y: scroll;
+    cursor: s-resize;
+    height: 6.6vw;
+    width: 66% !important;
+    float: right;
+    position: relative;
+    left: -2px;
+}
+.loadmore, hr {
+    display: none;
+}
+#alerts {
+    font-size: 1vw !important;
+}
+#tab-duel p {
+    font-size: 1.25vw;
+    width: 100%;
+}
+.button {
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -ms-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    font-size: 1.15vw;
+    text-align: center;
+    overflow: hidden;
+    width: 50.042% /*50.08%*/;
+    margin: 0 -0.3vw -2px -2px;
+    padding: 1px;
+}
+.button:hover {
+    -webkit-transition-duration: 2s;
+    -moz-transition-duration: 2s;
+    -ms-transition-duration: 2s;
+    -o-transition-duration: 2s;
+    transition-duration: 2s;
+    cursor: pointer;
+}
+button#lobby-duels-hide-gamelist {
+    font-size: 1.25vw;
+    height: 6.6vw;
+    width: 34%;
+}
+#link-profile:after {
+    content: " (Donate here!)";
 }
 
+/*  #tab-duel div:first-of-type:first-child, #tab-duel div:first-of-type {
+    margin-bottom: 5px !important;
+  }
+  #tab-duel h2:first-of-type, #tab-duel hr:first-of-type {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+}*/
 }
