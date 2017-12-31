@@ -88,5 +88,28 @@
     margin-bottom: 5px !important;
     margin-top: 5px !important;
   }
+ 
+  /* Hide the popup backgrounds so seeing cards is easier */
+  #game-alert-window, #game-end-window, 
+  #game-yesno-window, #game-option-window {
+    visibility: hidden;
+  }
+
+  /* Draw the now hidden background individually around the text */
+  #game-alert-window p, #game-alert-window h4,
+  #game-end-window p, #game-end-window h4,
+  #game-yesno-window h4,
+  #game-option-window h4 {
+    visibility: visible;
+    margin-top: 6px;
+    border: 1px solid #f0f0f0;
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+
+  /* Avoid hiding the buttons */
+  #game-alert-window button, #game-end-window button,
+  #game-yesno-window button, #game-option-window button {
+    visibility: visible;
+  }
   
 }
