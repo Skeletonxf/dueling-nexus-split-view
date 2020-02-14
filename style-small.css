@@ -11,7 +11,16 @@
     /* Enable horizontal resizing with the mouse, vertical resizing messes up the box */
     resize: horizontal;
   }
-  
+
+  #tab-duel div:first-of-type:first-child, #tab-duel div:first-of-type {
+    margin-bottom: 5px !important;
+  }
+
+  #tab-duel h2:first-of-type, #tab-duel hr:first-of-type {
+    margin-bottom: 5px !important;
+    margin-top: 5px !important;
+  }
+
   #card-name {
     /* Use absolute positioning to leave the relative positioning of the card column */
     position: absolute;
@@ -77,7 +86,7 @@
     */
     max-width: 65vw;
   }
- 
+
   /* Shrink donation banner padding to show more games in game list without scrolling 
      This does NOT affect the visibility of the donation banner in any way
   */
