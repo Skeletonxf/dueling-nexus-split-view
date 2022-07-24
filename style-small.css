@@ -1,5 +1,23 @@
 @namespace url(http://www.w3.org/1999/xhtml);
 @-moz-document domain("duelingnexus.com") {
+  #game-room-deck-selection-player1, #game-room-deck-selection-player2 {
+    width: 90%;
+    margin-left: 5%;
+  }
+
+  #game-deck-selection-player1, #game-deck-selection-player2 {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .game-room-deck-element {
+    width: auto;
+  }
+
+  .game-room-deck-element:nth-child(even) button {
+    background-color: #1e2c42 !important;
+  }
+
   #game-chat-area {
     /* Scroll the chat when its contents exceeded its height */
     overflow-y: scroll;
