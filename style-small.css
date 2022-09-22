@@ -61,16 +61,6 @@
   #game-selection-window {
     /* scroll whatever is in the selection window */
     overflow-y: scroll;
-    /*
-      put it after 30% of the horiztontal space so it is
-      5% clear of the monster info
-    */
-    margin-left: 30vw;
-    /*
-      cap its width at 65% so there is 5% left on
-      the right side so it looks centred
-    */
-    max-width: 65vw;
   }
 
   /* Shrink donation banner padding to show more games in game list without scrolling
