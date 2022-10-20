@@ -43,7 +43,7 @@
     /* Cap the vertical height of the card picture to just below the
        pendulum scales part of the image / end of the picture
     */
-    max-height: 190px;
+    max-height: 250px;
     /*
       Make this scroll in case the user wants to see the rest of the image
       This causes a nested scroll bar which may not look very good on some scenarios
